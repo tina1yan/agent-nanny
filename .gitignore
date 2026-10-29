@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+AgentNanny/
+logs/
+*.stderr.txt

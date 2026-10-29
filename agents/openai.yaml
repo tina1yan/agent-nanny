@@ -1,0 +1,14 @@
+interface:
+  display_name: Agent Nanny
+  short_description: Monitor coding agents, pause safely, and resume queued work
+  default_prompt: Use $agent-nanny to supervise my approved Codex tasks, recover safe
+    quota interruptions, and show what needs my attention.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
